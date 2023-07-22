@@ -1,0 +1,25 @@
+{
+  "name": "ikigai-theme",
+  "displayName": "The Ikigai Theme",
+  "version": "1.0.0",
+  "publisher": "jonathan-mwebaze",
+  "description": "A drop of darkness.",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ikigai Theme",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/jonahgeek/ikigai-theme.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

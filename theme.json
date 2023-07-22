@@ -1,0 +1,78 @@
+{
+  "name": "Ikigai",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#141115",
+    "editor.foreground": "#EDE7D9",
+    "editor.selectionBackground": "#49483E",
+    "editorLineNumber.foreground": "#EDE7D9",
+    "editorLineNumber.activeForeground": "#D5A021",
+    "editorCursor.foreground": "#F8F8F0",
+    "editorWhitespace.foreground": "#3B3A32",
+    "editorIndentGuide.background": "#3B3A32",
+    "editorIndentGuide.activeBackground": "#3B3A32",
+    "editor.findMatchBackground": "#FD971F",
+    "editor.findMatchHighlightBackground": "#A6E22E",
+    "editor.hoverHighlightBackground": "#3C3C3C",
+    "editor.wordHighlightBackground": "#49483E",
+    "editor.wordHighlightStrongBackground": "#75715E",
+    "editorLink.activeForeground": "#66D9EF",
+    "statusBar.background": "#141115",
+    "sideBar.background": "#141115",
+    "activityBar.background": "#141115"
+  },
+  "tokenColors": [
+    {
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#F92672" 
+      }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#75715E", 
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#F92672", 
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#E6DB74" 
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#66D9EF" 
+      }
+    },
+    {
+      "scope": "number",
+      "settings": {
+        "foreground": "#AE81FF" 
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#A6E22E", 
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.definition.variable",
+      "settings": {
+        "foreground": "#F92672", 
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}
